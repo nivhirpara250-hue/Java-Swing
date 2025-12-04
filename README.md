@@ -88,6 +88,7 @@ BorderLayout	5 regions layout
 GridLayout	Rows × Columns
 BoxLayout	Vertical / Horizontal layout
 Null Layout	Manual positioning
+``` ```
 🛠 Example Snippet: Simple Calculator
 int a = Integer.parseInt(txtA.getText());
 int b = Integer.parseInt(txtB.getText());
@@ -118,19 +119,6 @@ java -cp bin MainClassName
 
 Replace MainClassName with your main class.
 
-## 📁 Project Structure
-```
-Java-Swing/
-│
-├── src/                  # Source Code
-│   ├── basics/           # Basic Swing Examples
-│   ├── layouts/          # Layout Manager Examples
-│   ├── events/           # Event Handling Examples
-│   └── projects/         # Mini Apps
-│
-├── bin/                  # Compiled Files
-└── README.md             # Documentation
-```
 ## 🧰 Tech Stack
 Technology	Used For
 Java	Main language
