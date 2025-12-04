@@ -51,19 +51,20 @@ setSize → Window width & height
 EXIT_ON_CLOSE → Closes app completely
 
 setVisible(true) → Displays the window
-``
+```
 - 🔘 2. Adding Components
+```
 JButton btn = new JButton("Click Me");
 JLabel label = new JLabel("Welcome!");
 frame.add(btn);
 frame.add(label);
-
+```
 
 Explanation:
 Each UI element (button, text field, label) starts with J.
 All components must be added to a container.
 
-## 🧩 3. Event Handling
+- 🧩 3. Event Handling
 ```
 btn.addActionListener(e -> {
     System.out.println("Button Clicked!");
